@@ -1,0 +1,9 @@
+---
+- hosts: all
+  roles:
+    - ansible-role-apache
+    - ansible-role-php
+    - ansible-role-mysql
+    - ansible-role-git
+    - ojs
+  become: yes
