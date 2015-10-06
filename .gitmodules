@@ -10,3 +10,6 @@
 [submodule "provision/roles/ansible-role-mysql"]
 	path = provision/roles/ansible-role-mysql
 	url = https://github.com/geerlingguy/ansible-role-mysql.git
+[submodule "provision/roles/ojs"]
+	path = provision/roles/ojs
+	url = https://github.com/lsulibraries/ansible-role-ojs.git
