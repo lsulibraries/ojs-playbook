@@ -4,17 +4,18 @@ dbhost: localhost
 dbuser: ojs
 dbpass: ojs
 dbnanme: ojs
-debug: On
+debug: Off
 files_dir: /var/www/files
 force_login_ssl: Off
 encryption: sha1
 oai_repository_id: "localhost.example.com"
 captcha: On
 show_stats: On
-show_stacktrace: On
+show_stacktrace: Off
 display_errors: On
-deprecation_warnings: On
+deprecation_warnings: Off
 
+ojs_repo: https://github.com/lsulibraries/ojs.git
 ojs_version: ojs-2_4_5-0
 
 mysql_databases:
