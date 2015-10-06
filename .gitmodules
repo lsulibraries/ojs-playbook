@@ -1,0 +1,12 @@
+[submodule "provision/roles/ansible-role-apache"]
+	path = provision/roles/ansible-role-apache
+	url = https://github.com/geerlingguy/ansible-role-apache.git
+[submodule "provision/roles/ansible-role-git"]
+	path = provision/roles/ansible-role-git
+	url = https://github.com/geerlingguy/ansible-role-git.git
+[submodule "provision/roles/ansible-role-php"]
+	path = provision/roles/ansible-role-php
+	url = https://github.com/geerlingguy/ansible-role-php.git
+[submodule "provision/roles/ansible-role-mysql"]
+	path = provision/roles/ansible-role-mysql
+	url = https://github.com/geerlingguy/ansible-role-mysql.git
