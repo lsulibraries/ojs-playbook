@@ -15,7 +15,7 @@ show_stacktrace: Off
 display_errors: On
 deprecation_warnings: Off
 
-ojs_repo: https://github.com/lsulibraries/ojs.git
+ojs_repo: https://github.com/pkp/ojs.git
 ojs_version: ojs-2_4_5-0
 
 mysql_databases:
