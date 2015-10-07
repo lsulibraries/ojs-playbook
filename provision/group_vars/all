@@ -3,7 +3,7 @@ base_url: "http://localhost:8888"
 dbhost: localhost
 dbuser: ojs
 dbpass: ojs
-dbnanme: ojs
+dbname: ojs
 debug: Off
 files_dir: /var/www/files
 force_login_ssl: Off
