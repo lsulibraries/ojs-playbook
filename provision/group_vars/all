@@ -19,16 +19,16 @@ ojs_repo: https://github.com/pkp/ojs.git
 ojs_version: ojs-2_4_5-0
 
 mysql_databases:
-  - name: ojs
+  - name: "{{ dbname }}"
     collation: utf8_general_ci
     encoding: utf8
 
 
 mysql_users:
-  - name: ojs
-    host: localhost
-    password: ojs
-    priv: ojs.*:ALL
+  - name: "{{ dbuser }}"
+    host: "{{ dbhost }}"
+    password: "{{ dbpass }}"
+    priv: "{{ dbname }}.*:ALL"
 
 php_error_reporting: "E_ALL & ~E_DEPRECATED & ~E_STRICT"
 php_display_errors: "On"
