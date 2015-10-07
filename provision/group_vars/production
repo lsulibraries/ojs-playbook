@@ -1,0 +1,26 @@
+---
+# db settings
+dbhost:               "{{ lookup('ini', 'dbhost section=production file=ojs.ini') }}"
+dbuser:               "{{ lookup('ini', 'dbuser section=production file=ojs.ini') }}"
+dbpass:               "{{ lookup('ini', 'dbpass section=production file=ojs.ini') }}"
+dbname:               "{{ lookup('ini', 'dbname section=production file=ojs.ini') }}"
+
+# config.inc.php settings
+base_url:             "{{ lookup('ini', 'base_url section=production file=ojs.ini') }}"
+debug:                "{{ lookup('ini', 'debug section=production file=ojs.ini') }}"
+files_dir:            "{{ lookup('ini', 'files_dir section=production file=ojs.ini') }}"
+force_login_ssl:      "{{ lookup('ini', 'force_login_ssl section=production file=ojs.ini') }}"
+encryption:           "{{ lookup('ini', 'encryption section=production file=ojs.ini') }}"
+oai_repository_id:    "{{ lookup('ini', 'oai_repository_id section=production file=ojs.ini') }}"
+captcha:              "{{ lookup('ini', 'captcha section=production file=ojs.ini') }}"
+show_stats:           "{{ lookup('ini', 'show_stats section=production file=ojs.ini') }}"
+show_stacktrace:      "{{ lookup('ini', 'show_stacktrace section=production file=ojs.ini') }}"
+display_errors:       "{{ lookup('ini', 'display_errors section=production file=ojs.ini') }}"
+deprecation_warnings: "{{ lookup('ini', 'deprecation_warnings section=production file=ojs.ini') }}"
+ojs_repo:             "{{ lookup('ini', 'ojs_repo section=production file=ojs.ini') }}"
+ojs_version:          "{{ lookup('ini', 'ojs_version section=production file=ojs.ini') }}"
+
+# php config
+php_error_reporting:  "{{ lookup('ini', 'php_error_reporting section=production file=ojs.ini') }}"
+php_display_errors:  "{{ lookup('ini', 'php_display_errors section=production file=ojs.ini') }}"
+php_display_startup_errors:  "{{ lookup('ini', 'php_display_startup_errors section=production file=ojs.ini') }}"
