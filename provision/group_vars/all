@@ -30,7 +30,7 @@ mysql_users:
     password: "{{ dbpass }}"
     priv: "{{ dbname }}.*:ALL"
 
-php_error_reporting: "E_ALL & ~E_DEPRECATED & ~E_STRICT"
+php_error_reporting: "E_ALL"
 php_display_errors: "On"
 php_display_startup_errors: "On"
 
